@@ -148,7 +148,7 @@ public class StreamsExercise {
 
         final List<PersonPositionIndex> personIndexes = null; // TODO use getPersonPositionIndex
 
-        assertEquals(1, personIndexes.get(3).getDurationByPositionIndex().size());
+        assertEquals(2, personIndexes.get(3).getDurationByPositionIndex().size());
     }
 
     private static class PersonPositionDuration {
